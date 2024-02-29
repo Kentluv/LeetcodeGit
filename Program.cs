@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-var solution = new GenerateMatrix_Solution();
-var result = solution.GenerateMatrix(3);
+var solution = new FullJustify_Solution();
+var result = solution.FullJustify(new string[] {"This", "is", "an", "example", "of", "text", "justification."}, 16);
 Console.WriteLine(result);
 
 
